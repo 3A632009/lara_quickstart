@@ -13,9 +13,6 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 //顯示所有任務的清單
 Route::get('/', function () {
     //
